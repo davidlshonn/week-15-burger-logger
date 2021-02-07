@@ -28,15 +28,15 @@
             </div>
         </div>
     </div>
-
-        <div class="col-lg-6 col-md-8 mx-auto">
-            {{#each burgers}}
-            {{#if this.devoured}}
-            <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
-            {{/if}}
-            {{/each}}
-        </div>
-<br>
+    <br>
+    <div class="col-lg-6 col-md-8 mx-auto">
+        {{#each burgers}}
+        {{#if this.devoured}}
+        <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
+        {{/if}}
+        {{/each}}
+    </div>
+    <br>
     <div class="col-lg-6 col-md-8 mx-auto">
         <div>
             <div>
@@ -57,4 +57,4 @@
     </div>
     </div>
 
-    </section>
+</section>
